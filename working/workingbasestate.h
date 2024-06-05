@@ -7,6 +7,7 @@
 
 #include "../contextdata.h"
 #include "../actions.h"
+#include "../subcommon/triggerprocessingstate.h"
 
 class WorkingBaseState {
 protected:
@@ -30,6 +31,12 @@ public:
 
     virtual void entry(){};
     virtual void exit(){};
+
+    virtual TriggerProcessingState interruptAtStart() {return TriggerProcessingState::pending;};
+    virtual TriggerProcessingState interruptAtHeightSensor() {return TriggerProcessingState::pending;};
+    virtual TriggerProcessingState interruptAtSort() {return TriggerProcessingState::pending;};
+    virtual TriggerProcessingState interruptAtSlide() {return TriggerProcessingState::pending;};
+    virtual TriggerProcessingState interruptAtEnd() {return TriggerProcessingState::pending;};
 
     virtual void showState() {};
 };

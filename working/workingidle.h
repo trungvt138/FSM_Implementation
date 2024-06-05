@@ -7,7 +7,7 @@
 
 
 
-class workingidle {
+class WorkingIdle {
 
 };
 

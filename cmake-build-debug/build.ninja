@@ -103,11 +103,17 @@ build CMakeFiles/FSMDemo.dir/rootfsm/initial.cpp.obj: CXX_COMPILER__FSMDemo_unsc
   OBJECT_DIR = CMakeFiles\FSMDemo.dir
   OBJECT_FILE_DIR = CMakeFiles\FSMDemo.dir\rootfsm
 
-build CMakeFiles/FSMDemo.dir/rootfsm/Working.cpp.obj: CXX_COMPILER__FSMDemo_unscanned_Debug C$:/Users/trung/CLionProjects/untitled/rootfsm/Working.cpp || cmake_object_order_depends_target_FSMDemo
-  DEP_FILE = CMakeFiles\FSMDemo.dir\rootfsm\Working.cpp.obj.d
+build CMakeFiles/FSMDemo.dir/rootfsm/working.cpp.obj: CXX_COMPILER__FSMDemo_unscanned_Debug C$:/Users/trung/CLionProjects/untitled/rootfsm/working.cpp || cmake_object_order_depends_target_FSMDemo
+  DEP_FILE = CMakeFiles\FSMDemo.dir\rootfsm\working.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\FSMDemo.dir
   OBJECT_FILE_DIR = CMakeFiles\FSMDemo.dir\rootfsm
+
+build CMakeFiles/FSMDemo.dir/working/wsatstartstate.cpp.obj: CXX_COMPILER__FSMDemo_unscanned_Debug C$:/Users/trung/CLionProjects/untitled/working/wsatstartstate.cpp || cmake_object_order_depends_target_FSMDemo
+  DEP_FILE = CMakeFiles\FSMDemo.dir\working\wsatstartstate.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\FSMDemo.dir
+  OBJECT_FILE_DIR = CMakeFiles\FSMDemo.dir\working
 
 
 # =============================================================================
@@ -117,7 +123,7 @@ build CMakeFiles/FSMDemo.dir/rootfsm/Working.cpp.obj: CXX_COMPILER__FSMDemo_unsc
 #############################################
 # Link the executable FSMDemo.exe
 
-build FSMDemo.exe: CXX_EXECUTABLE_LINKER__FSMDemo_Debug CMakeFiles/FSMDemo.dir/main.cpp.obj CMakeFiles/FSMDemo.dir/context.cpp.obj CMakeFiles/FSMDemo.dir/rootfsm/basestate.cpp.obj CMakeFiles/FSMDemo.dir/contextdata.cpp.obj CMakeFiles/FSMDemo.dir/actions.cpp.obj CMakeFiles/FSMDemo.dir/working/workingbasestate.cpp.obj CMakeFiles/FSMDemo.dir/working/workingidle.cpp.obj CMakeFiles/FSMDemo.dir/rootfsm/pseudostartstate.cpp.obj CMakeFiles/FSMDemo.dir/rootfsm/initial.cpp.obj CMakeFiles/FSMDemo.dir/rootfsm/Working.cpp.obj
+build FSMDemo.exe: CXX_EXECUTABLE_LINKER__FSMDemo_Debug CMakeFiles/FSMDemo.dir/main.cpp.obj CMakeFiles/FSMDemo.dir/context.cpp.obj CMakeFiles/FSMDemo.dir/rootfsm/basestate.cpp.obj CMakeFiles/FSMDemo.dir/contextdata.cpp.obj CMakeFiles/FSMDemo.dir/actions.cpp.obj CMakeFiles/FSMDemo.dir/working/workingbasestate.cpp.obj CMakeFiles/FSMDemo.dir/working/workingidle.cpp.obj CMakeFiles/FSMDemo.dir/rootfsm/pseudostartstate.cpp.obj CMakeFiles/FSMDemo.dir/rootfsm/initial.cpp.obj CMakeFiles/FSMDemo.dir/rootfsm/working.cpp.obj CMakeFiles/FSMDemo.dir/working/wsatstartstate.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\FSMDemo.dir

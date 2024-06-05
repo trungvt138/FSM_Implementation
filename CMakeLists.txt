@@ -26,4 +26,6 @@ add_executable(FSMDemo main.cpp
         working/workingpseudostartstate.h
         rootfsm/Working.cpp
         rootfsm/Working.h
+        working/wsatstartstate.cpp
+        working/wsatstartstate.h
 )
