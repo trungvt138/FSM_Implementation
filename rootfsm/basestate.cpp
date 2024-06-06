@@ -5,21 +5,21 @@
 #include "basestate.h"
 
 #include "initial.h"
-#include "../working/workingpseudostartstate.h"
+#include "../operation/operationpseudostartstate.h"
 
-void BaseState::initWorkingStateMachines() {
-    workingstatemachine = new WorkingPseudoStartState();
-    workingstatemachine->initWorkingStateMachines();
+void BaseState::initOperationStateMachines() {
+    operationstatemachine = new OperationPseudoStartState();
+    operationstatemachine->initOperationStateMachines();
 }
 
 void BaseState::setData(ContextData *data){
     this->data = data;
-    workingstatemachine->setData(data);
+    operationstatemachine->setData(data);
 }
 
 void BaseState::setAction(Actions *action){
     this->action = action;
-    workingstatemachine->setAction(action);
+    operationstatemachine->setAction(action);
 }
 
 void BaseState::enterViaPseudoStart(){

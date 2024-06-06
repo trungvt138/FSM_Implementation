@@ -16,7 +16,7 @@ public:
     virtual void unlock();
 
     virtual void enteredInitial();
-    virtual void enteredWorking();
+    virtual void enteredOperation();
     virtual void enteredIdle();
     virtual void enteredWSStart();
     virtual void enteredWSIdent();

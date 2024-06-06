@@ -8,7 +8,7 @@
 
 Context::Context(Actions *shared_action) : action(shared_action) {
     state = new PseudoStartState();
-    state->initWorkingStateMachines();
+    state->initOperationStateMachines();
 
     // all state pointer should be initialised now
     state->setData(&data);

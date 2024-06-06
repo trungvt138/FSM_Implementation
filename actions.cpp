@@ -29,7 +29,7 @@ void Actions::unlock() {
 
 void Actions::enteredIdle() {}
 void Actions::enteredInitial() {}
-void Actions::enteredWorking() {}
+void Actions::enteredOperation() {}
 void Actions::enteredWSIdent() {}
 void Actions::enteredWSSort() {}
 void Actions::enteredWSStart() {}

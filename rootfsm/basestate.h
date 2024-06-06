@@ -6,20 +6,20 @@
 #define BASESTATE_H
 #include "../actions.h"
 #include "../contextdata.h"
-#include "../working/workingbasestate.h"
+#include "../operation/operationbasestate.h"
 
 
 class BaseState {
 protected:
     ContextData *data;
     Actions *action;
-    WorkingBaseState *workingstatemachine;
+    OperationBaseState *operationstatemachine;
 public:
     virtual ~BaseState() {
-        delete workingstatemachine;
+        delete operationstatemachine;
     };
 
-    virtual void initWorkingStateMachines();
+    virtual void initOperationStateMachines();
     void setData(ContextData *data);
     void setAction(Actions *action);
 

@@ -6,7 +6,7 @@
 
 #include <iostream>
 
-#include "working.h"
+#include "operation.h"
 
 void Initial::entry() {
     action->enteredInitial();
@@ -16,7 +16,7 @@ void Initial::start() {
     std::cout << "Initial::start called" << std::endl;
     leavingState();
     // Transition action
-    new(this) Working;
+    new(this) Operation;
     enterByDefaultEntryPoint();
 }
 

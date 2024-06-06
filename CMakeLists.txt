@@ -14,18 +14,18 @@ add_executable(FSMDemo main.cpp
         contextdata.h
         actions.cpp
         actions.h
-        working/workingbasestate.cpp
-        working/workingbasestate.h
+        operation/operationbasestate.cpp
+        operation/operationbasestate.h
         subcommon/triggerprocessingstate.h
-        working/workingidle.cpp
-        working/workingidle.h
+        operation/operationidle.cpp
+        operation/operationidle.h
         rootfsm/pseudostartstate.cpp
         rootfsm/pseudostartstate.h
         rootfsm/initial.cpp
         rootfsm/initial.h
-        working/workingpseudostartstate.h
-        rootfsm/Working.cpp
-        rootfsm/Working.h
-        working/wsatstartstate.cpp
-        working/wsatstartstate.h
+        operation/operationpseudostartstate.h
+        rootfsm/Operation.cpp
+        rootfsm/Operation.h
+        operation/wsatstartstate.cpp
+        operation/wsatstartstate.h
 )
