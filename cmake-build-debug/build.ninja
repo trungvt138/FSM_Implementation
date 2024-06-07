@@ -79,17 +79,17 @@ build CMakeFiles/FSMDemo.dir/actions.cpp.obj: CXX_COMPILER__FSMDemo_unscanned_De
   OBJECT_DIR = CMakeFiles\FSMDemo.dir
   OBJECT_FILE_DIR = CMakeFiles\FSMDemo.dir
 
-build CMakeFiles/FSMDemo.dir/working/workingbasestate.cpp.obj: CXX_COMPILER__FSMDemo_unscanned_Debug C$:/Users/trung/CLionProjects/untitled/working/workingbasestate.cpp || cmake_object_order_depends_target_FSMDemo
-  DEP_FILE = CMakeFiles\FSMDemo.dir\working\workingbasestate.cpp.obj.d
+build CMakeFiles/FSMDemo.dir/operation/operationbasestate.cpp.obj: CXX_COMPILER__FSMDemo_unscanned_Debug C$:/Users/trung/CLionProjects/untitled/operation/operationbasestate.cpp || cmake_object_order_depends_target_FSMDemo
+  DEP_FILE = CMakeFiles\FSMDemo.dir\operation\operationbasestate.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\FSMDemo.dir
-  OBJECT_FILE_DIR = CMakeFiles\FSMDemo.dir\working
+  OBJECT_FILE_DIR = CMakeFiles\FSMDemo.dir\operation
 
-build CMakeFiles/FSMDemo.dir/working/workingidle.cpp.obj: CXX_COMPILER__FSMDemo_unscanned_Debug C$:/Users/trung/CLionProjects/untitled/working/workingidle.cpp || cmake_object_order_depends_target_FSMDemo
-  DEP_FILE = CMakeFiles\FSMDemo.dir\working\workingidle.cpp.obj.d
+build CMakeFiles/FSMDemo.dir/operation/operationidle.cpp.obj: CXX_COMPILER__FSMDemo_unscanned_Debug C$:/Users/trung/CLionProjects/untitled/operation/operationidle.cpp || cmake_object_order_depends_target_FSMDemo
+  DEP_FILE = CMakeFiles\FSMDemo.dir\operation\operationidle.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\FSMDemo.dir
-  OBJECT_FILE_DIR = CMakeFiles\FSMDemo.dir\working
+  OBJECT_FILE_DIR = CMakeFiles\FSMDemo.dir\operation
 
 build CMakeFiles/FSMDemo.dir/rootfsm/pseudostartstate.cpp.obj: CXX_COMPILER__FSMDemo_unscanned_Debug C$:/Users/trung/CLionProjects/untitled/rootfsm/pseudostartstate.cpp || cmake_object_order_depends_target_FSMDemo
   DEP_FILE = CMakeFiles\FSMDemo.dir\rootfsm\pseudostartstate.cpp.obj.d
@@ -103,17 +103,29 @@ build CMakeFiles/FSMDemo.dir/rootfsm/initial.cpp.obj: CXX_COMPILER__FSMDemo_unsc
   OBJECT_DIR = CMakeFiles\FSMDemo.dir
   OBJECT_FILE_DIR = CMakeFiles\FSMDemo.dir\rootfsm
 
-build CMakeFiles/FSMDemo.dir/rootfsm/working.cpp.obj: CXX_COMPILER__FSMDemo_unscanned_Debug C$:/Users/trung/CLionProjects/untitled/rootfsm/working.cpp || cmake_object_order_depends_target_FSMDemo
-  DEP_FILE = CMakeFiles\FSMDemo.dir\rootfsm\working.cpp.obj.d
+build CMakeFiles/FSMDemo.dir/rootfsm/operation.cpp.obj: CXX_COMPILER__FSMDemo_unscanned_Debug C$:/Users/trung/CLionProjects/untitled/rootfsm/operation.cpp || cmake_object_order_depends_target_FSMDemo
+  DEP_FILE = CMakeFiles\FSMDemo.dir\rootfsm\operation.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\FSMDemo.dir
   OBJECT_FILE_DIR = CMakeFiles\FSMDemo.dir\rootfsm
 
-build CMakeFiles/FSMDemo.dir/working/wsatstartstate.cpp.obj: CXX_COMPILER__FSMDemo_unscanned_Debug C$:/Users/trung/CLionProjects/untitled/working/wsatstartstate.cpp || cmake_object_order_depends_target_FSMDemo
-  DEP_FILE = CMakeFiles\FSMDemo.dir\working\wsatstartstate.cpp.obj.d
+build CMakeFiles/FSMDemo.dir/operation/wsatstartstate.cpp.obj: CXX_COMPILER__FSMDemo_unscanned_Debug C$:/Users/trung/CLionProjects/untitled/operation/wsatstartstate.cpp || cmake_object_order_depends_target_FSMDemo
+  DEP_FILE = CMakeFiles\FSMDemo.dir\operation\wsatstartstate.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\FSMDemo.dir
-  OBJECT_FILE_DIR = CMakeFiles\FSMDemo.dir\working
+  OBJECT_FILE_DIR = CMakeFiles\FSMDemo.dir\operation
+
+build CMakeFiles/FSMDemo.dir/operation/wsident.cpp.obj: CXX_COMPILER__FSMDemo_unscanned_Debug C$:/Users/trung/CLionProjects/untitled/operation/wsident.cpp || cmake_object_order_depends_target_FSMDemo
+  DEP_FILE = CMakeFiles\FSMDemo.dir\operation\wsident.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\FSMDemo.dir
+  OBJECT_FILE_DIR = CMakeFiles\FSMDemo.dir\operation
+
+build CMakeFiles/FSMDemo.dir/operation/wssort.cpp.obj: CXX_COMPILER__FSMDemo_unscanned_Debug C$:/Users/trung/CLionProjects/untitled/operation/wssort.cpp || cmake_object_order_depends_target_FSMDemo
+  DEP_FILE = CMakeFiles\FSMDemo.dir\operation\wssort.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\FSMDemo.dir
+  OBJECT_FILE_DIR = CMakeFiles\FSMDemo.dir\operation
 
 
 # =============================================================================
@@ -123,7 +135,7 @@ build CMakeFiles/FSMDemo.dir/working/wsatstartstate.cpp.obj: CXX_COMPILER__FSMDe
 #############################################
 # Link the executable FSMDemo.exe
 
-build FSMDemo.exe: CXX_EXECUTABLE_LINKER__FSMDemo_Debug CMakeFiles/FSMDemo.dir/main.cpp.obj CMakeFiles/FSMDemo.dir/context.cpp.obj CMakeFiles/FSMDemo.dir/rootfsm/basestate.cpp.obj CMakeFiles/FSMDemo.dir/contextdata.cpp.obj CMakeFiles/FSMDemo.dir/actions.cpp.obj CMakeFiles/FSMDemo.dir/working/workingbasestate.cpp.obj CMakeFiles/FSMDemo.dir/working/workingidle.cpp.obj CMakeFiles/FSMDemo.dir/rootfsm/pseudostartstate.cpp.obj CMakeFiles/FSMDemo.dir/rootfsm/initial.cpp.obj CMakeFiles/FSMDemo.dir/rootfsm/working.cpp.obj CMakeFiles/FSMDemo.dir/working/wsatstartstate.cpp.obj
+build FSMDemo.exe: CXX_EXECUTABLE_LINKER__FSMDemo_Debug CMakeFiles/FSMDemo.dir/main.cpp.obj CMakeFiles/FSMDemo.dir/context.cpp.obj CMakeFiles/FSMDemo.dir/rootfsm/basestate.cpp.obj CMakeFiles/FSMDemo.dir/contextdata.cpp.obj CMakeFiles/FSMDemo.dir/actions.cpp.obj CMakeFiles/FSMDemo.dir/operation/operationbasestate.cpp.obj CMakeFiles/FSMDemo.dir/operation/operationidle.cpp.obj CMakeFiles/FSMDemo.dir/rootfsm/pseudostartstate.cpp.obj CMakeFiles/FSMDemo.dir/rootfsm/initial.cpp.obj CMakeFiles/FSMDemo.dir/rootfsm/operation.cpp.obj CMakeFiles/FSMDemo.dir/operation/wsatstartstate.cpp.obj CMakeFiles/FSMDemo.dir/operation/wsident.cpp.obj CMakeFiles/FSMDemo.dir/operation/wssort.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\FSMDemo.dir

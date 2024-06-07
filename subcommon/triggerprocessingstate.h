@@ -5,7 +5,7 @@
 #ifndef TRIGGERPROCESSINGSTATE_H
 #define TRIGGERPROCESSINGSTATE_H
 
-enum class TriggerProcessingState{
+enum class TriggerProcessingState {
     consumed,
     pending,
     endstatereached,

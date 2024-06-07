@@ -28,4 +28,9 @@ add_executable(FSMDemo main.cpp
         rootfsm/Operation.h
         operation/wsatstartstate.cpp
         operation/wsatstartstate.h
+        operation/wsident.cpp
+        operation/wsident.h
+        operation/wssort.cpp
+        operation/wssort.h
+        operation/operationpseudoendstate.h
 )
