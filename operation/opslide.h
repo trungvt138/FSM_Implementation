@@ -10,6 +10,7 @@
 class OPSlide : public OPBaseState{
 public:
     void entry() override;
+    TriggerProcessingState reset() override;
     void showState() override;
 };
 

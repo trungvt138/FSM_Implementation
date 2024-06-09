@@ -10,10 +10,11 @@
 class Actions {
 public:
     virtual ~Actions();
-    virtual void on();
-    virtual void off();
-    virtual void shutdown();
-    virtual void unlock();
+    virtual void greenOn();
+    virtual void greenOff();
+    virtual void motorOn();
+    virtual void motorSlowOn();
+    virtual void motorSlowOff();
 
     virtual void enteredInitial();
     virtual void enteredOperation();

@@ -32,6 +32,7 @@ public:
     virtual void entry(){};
     virtual void exit(){};
 
+    virtual TriggerProcessingState reset() {return TriggerProcessingState::pending;};
     virtual TriggerProcessingState interruptAtStart() {return TriggerProcessingState::pending;};
     virtual TriggerProcessingState interruptAtHeightSensor() {return TriggerProcessingState::pending;};
     virtual TriggerProcessingState interruptAtSort() {return TriggerProcessingState::pending;};

@@ -10,6 +10,7 @@
 
 void OPStart::entry() {
     action->enteredOPStart();
+    action->motorOn();
 }
 
 TriggerProcessingState OPStart::interruptAtHeightSensor() {

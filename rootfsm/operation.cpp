@@ -3,6 +3,7 @@
 //
 
 #include "operation.h"
+#include "initial.h"
 
 #include <iostream>
 
@@ -17,7 +18,12 @@ void Operation::leavingState() {
 }
 
 void Operation::entry() {
+    action->greenOn();
     action->enteredOperation();
+}
+
+void Operation::exit() {
+    action->greenOff();
 }
 
 void Operation::interruptAtStart() {
@@ -43,6 +49,14 @@ void Operation::interruptAtSort() {
 void Operation::interruptAtEnd() {
     std::cout << "Operation: interruptAtEnd called" << std::endl;
     operationstatemachine->interruptAtEnd();
+}
+
+void Operation::handleDefaultExit(const TriggerProcessingState &processingState) {
+    if (processingState == TriggerProcessingState::endstatereached) {
+        operationstatemachine->exit();
+        new(this) Initial;
+        enterByDefaultEntryPoint();
+    }
 }
 
 void Operation::showState() {

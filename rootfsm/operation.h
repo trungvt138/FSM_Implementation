@@ -14,12 +14,15 @@ public:
     void leavingState() override;
 
     void entry() override;
+    void exit() override;
 
     void interruptAtStart() override;
     void interruptAtHeightSensor() override;
     void interruptAtSort() override;
     void interruptAtSlide() override;
     void interruptAtEnd() override;
+
+    void handleDefaultExit(const TriggerProcessingState &handled) override;
 
     void showState() override;
 };

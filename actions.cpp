@@ -11,20 +11,24 @@ Actions::~Actions() {
     cout << "  Actions destructor called" << endl;
 }
 
-void Actions::on() {
-    cout << "  Actions on called" << endl;
+void Actions::greenOn() {
+    cout << "  Actions greenOn called" << endl;
 }
 
-void Actions::off() {
-    cout << "  Actions off called" << endl;
+void Actions::greenOff() {
+    cout << "  Actions greenOff called" << endl;
 }
 
-void Actions::shutdown() {
-    cout << "  Actions shutdown called" << endl;
+void Actions::motorOn() {
+    cout << "  Actions motorOn called" << endl;
 }
 
-void Actions::unlock() {
-    cout << "  Actions unlock called" << endl;
+void Actions::motorSlowOn() {
+    cout << "  Actions motorSlowOn called" << endl;
+}
+
+void Actions::motorSlowOff() {
+    cout << "  Actions motorSlowOff called" << endl;
 }
 
 void Actions::enteredOPIdle() {}

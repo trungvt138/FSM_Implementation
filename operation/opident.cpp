@@ -10,6 +10,11 @@
 
 void OPIdent::entry() {
     action->enteredOPIdent();
+    action->motorSlowOn();
+}
+
+void OPIdent::exit() {
+    action->motorSlowOff();
 }
 
 TriggerProcessingState OPIdent::interruptAtSort() {

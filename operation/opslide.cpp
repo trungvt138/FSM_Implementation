@@ -3,11 +3,20 @@
 //
 
 #include "opslide.h"
+#include "opidle.h"
 
 #include <iostream>
 
 void OPSlide::entry() {
     action->enteredOPSort();
+}
+
+TriggerProcessingState OPSlide::reset() {
+    std::cout << "  OP Slide: reset called" << std::endl;
+    leavingState();
+    new(this) OPIdle;
+    enterByDefaultEntryPoint();
+    return TriggerProcessingState::consumed;
 }
 
 void OPSlide::showState() {

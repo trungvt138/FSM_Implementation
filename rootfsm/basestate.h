@@ -32,6 +32,8 @@ public:
 
     virtual void enterViaPseudoStart();
 
+    virtual void handleDefaultExit(const TriggerProcessingState &handled) {};
+
     // entry/exit-actions
     virtual void entry(){};
     virtual void exit(){};

@@ -10,6 +10,7 @@
 class OPIdent : public OPBaseState {
 public:
     void entry() override;
+    void exit() override;
 
     TriggerProcessingState interruptAtSort() override;
 

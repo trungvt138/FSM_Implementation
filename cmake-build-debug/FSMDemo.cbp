@@ -8,165 +8,169 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/trungdam/CLionProjects/FSM_Implementation/cmake-build-debug"/>
+				<Option working_dir="C:/Users/infwcv674/FSM_Implementation/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j11 -f &quot;/Users/trungdam/CLionProjects/FSM_Implementation/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j11 -f &quot;/Users/trungdam/CLionProjects/FSM_Implementation/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j11 -f &quot;/Users/trungdam/CLionProjects/FSM_Implementation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j11 -f &quot;/Users/trungdam/CLionProjects/FSM_Implementation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/dev/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/infwcv674/FSM_Implementation/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/dev/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/infwcv674/FSM_Implementation/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/dev/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/infwcv674/FSM_Implementation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/dev/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/infwcv674/FSM_Implementation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="FSMDemo">
-				<Option output="/Users/trungdam/CLionProjects/FSM_Implementation/cmake-build-debug/FSMDemo" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/trungdam/CLionProjects/FSM_Implementation/cmake-build-debug"/>
+				<Option output="C:/Users/infwcv674/FSM_Implementation/cmake-build-debug/FSMDemo.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/infwcv674/FSM_Implementation/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
+					<Add directory="C:/dev/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0"/>
+					<Add directory="C:/dev/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0/x86_64-w64-mingw32"/>
+					<Add directory="C:/dev/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0/backward"/>
+					<Add directory="C:/dev/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include"/>
+					<Add directory="C:/dev/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include"/>
+					<Add directory="C:/dev/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j11 -f &quot;/Users/trungdam/CLionProjects/FSM_Implementation/cmake-build-debug/Makefile&quot;  VERBOSE=1 FSMDemo"/>
-					<CompileFile command="/usr/bin/make -j11 -f &quot;/Users/trungdam/CLionProjects/FSM_Implementation/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j11 -f &quot;/Users/trungdam/CLionProjects/FSM_Implementation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j11 -f &quot;/Users/trungdam/CLionProjects/FSM_Implementation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/dev/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/infwcv674/FSM_Implementation/cmake-build-debug/Makefile&quot;  VERBOSE=1 FSMDemo"/>
+					<CompileFile command="C:/dev/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/infwcv674/FSM_Implementation/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/dev/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/infwcv674/FSM_Implementation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/dev/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/infwcv674/FSM_Implementation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="FSMDemo/fast">
-				<Option output="/Users/trungdam/CLionProjects/FSM_Implementation/cmake-build-debug/FSMDemo" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/trungdam/CLionProjects/FSM_Implementation/cmake-build-debug"/>
+				<Option output="C:/Users/infwcv674/FSM_Implementation/cmake-build-debug/FSMDemo.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/infwcv674/FSM_Implementation/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
+					<Add directory="C:/dev/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0"/>
+					<Add directory="C:/dev/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0/x86_64-w64-mingw32"/>
+					<Add directory="C:/dev/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0/backward"/>
+					<Add directory="C:/dev/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include"/>
+					<Add directory="C:/dev/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include"/>
+					<Add directory="C:/dev/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j11 -f &quot;/Users/trungdam/CLionProjects/FSM_Implementation/cmake-build-debug/Makefile&quot;  VERBOSE=1 FSMDemo/fast"/>
-					<CompileFile command="/usr/bin/make -j11 -f &quot;/Users/trungdam/CLionProjects/FSM_Implementation/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j11 -f &quot;/Users/trungdam/CLionProjects/FSM_Implementation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j11 -f &quot;/Users/trungdam/CLionProjects/FSM_Implementation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/dev/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/infwcv674/FSM_Implementation/cmake-build-debug/Makefile&quot;  VERBOSE=1 FSMDemo/fast"/>
+					<CompileFile command="C:/dev/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/infwcv674/FSM_Implementation/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/dev/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/infwcv674/FSM_Implementation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/dev/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/infwcv674/FSM_Implementation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/trungdam/CLionProjects/FSM_Implementation/cmake-build-debug"/>
+				<Option working_dir="C:/Users/infwcv674/FSM_Implementation/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j11 -f &quot;/Users/trungdam/CLionProjects/FSM_Implementation/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j11 -f &quot;/Users/trungdam/CLionProjects/FSM_Implementation/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j11 -f &quot;/Users/trungdam/CLionProjects/FSM_Implementation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j11 -f &quot;/Users/trungdam/CLionProjects/FSM_Implementation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/dev/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/infwcv674/FSM_Implementation/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/dev/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/infwcv674/FSM_Implementation/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/dev/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/infwcv674/FSM_Implementation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/dev/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/infwcv674/FSM_Implementation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/trungdam/CLionProjects/FSM_Implementation/cmake-build-debug"/>
+				<Option working_dir="C:/Users/infwcv674/FSM_Implementation/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j11 -f &quot;/Users/trungdam/CLionProjects/FSM_Implementation/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j11 -f &quot;/Users/trungdam/CLionProjects/FSM_Implementation/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j11 -f &quot;/Users/trungdam/CLionProjects/FSM_Implementation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j11 -f &quot;/Users/trungdam/CLionProjects/FSM_Implementation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/dev/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/infwcv674/FSM_Implementation/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/dev/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/infwcv674/FSM_Implementation/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/dev/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/infwcv674/FSM_Implementation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/dev/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/infwcv674/FSM_Implementation/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/trungdam/CLionProjects/FSM_Implementation/actions.cpp">
+		<Unit filename="C:/Users/infwcv674/FSM_Implementation/actions.cpp">
 			<Option target="FSMDemo"/>
 		</Unit>
-		<Unit filename="/Users/trungdam/CLionProjects/FSM_Implementation/actions.h">
+		<Unit filename="C:/Users/infwcv674/FSM_Implementation/actions.h">
 			<Option target="FSMDemo"/>
 		</Unit>
-		<Unit filename="/Users/trungdam/CLionProjects/FSM_Implementation/context.cpp">
+		<Unit filename="C:/Users/infwcv674/FSM_Implementation/context.cpp">
 			<Option target="FSMDemo"/>
 		</Unit>
-		<Unit filename="/Users/trungdam/CLionProjects/FSM_Implementation/context.h">
+		<Unit filename="C:/Users/infwcv674/FSM_Implementation/context.h">
 			<Option target="FSMDemo"/>
 		</Unit>
-		<Unit filename="/Users/trungdam/CLionProjects/FSM_Implementation/contextdata.cpp">
+		<Unit filename="C:/Users/infwcv674/FSM_Implementation/contextdata.cpp">
 			<Option target="FSMDemo"/>
 		</Unit>
-		<Unit filename="/Users/trungdam/CLionProjects/FSM_Implementation/contextdata.h">
+		<Unit filename="C:/Users/infwcv674/FSM_Implementation/contextdata.h">
 			<Option target="FSMDemo"/>
 		</Unit>
-		<Unit filename="/Users/trungdam/CLionProjects/FSM_Implementation/main.cpp">
+		<Unit filename="C:/Users/infwcv674/FSM_Implementation/main.cpp">
 			<Option target="FSMDemo"/>
 		</Unit>
-		<Unit filename="/Users/trungdam/CLionProjects/FSM_Implementation/operation/opbasestate.cpp">
+		<Unit filename="C:/Users/infwcv674/FSM_Implementation/operation/opbasestate.cpp">
 			<Option target="FSMDemo"/>
 		</Unit>
-		<Unit filename="/Users/trungdam/CLionProjects/FSM_Implementation/operation/opbasestate.h">
+		<Unit filename="C:/Users/infwcv674/FSM_Implementation/operation/opbasestate.h">
 			<Option target="FSMDemo"/>
 		</Unit>
-		<Unit filename="/Users/trungdam/CLionProjects/FSM_Implementation/operation/opident.cpp">
+		<Unit filename="C:/Users/infwcv674/FSM_Implementation/operation/opident.cpp">
 			<Option target="FSMDemo"/>
 		</Unit>
-		<Unit filename="/Users/trungdam/CLionProjects/FSM_Implementation/operation/opident.h">
+		<Unit filename="C:/Users/infwcv674/FSM_Implementation/operation/opident.h">
 			<Option target="FSMDemo"/>
 		</Unit>
-		<Unit filename="/Users/trungdam/CLionProjects/FSM_Implementation/operation/opidle.cpp">
+		<Unit filename="C:/Users/infwcv674/FSM_Implementation/operation/opidle.cpp">
 			<Option target="FSMDemo"/>
 		</Unit>
-		<Unit filename="/Users/trungdam/CLionProjects/FSM_Implementation/operation/opidle.h">
+		<Unit filename="C:/Users/infwcv674/FSM_Implementation/operation/opidle.h">
 			<Option target="FSMDemo"/>
 		</Unit>
-		<Unit filename="/Users/trungdam/CLionProjects/FSM_Implementation/operation/oppseudoendstate.h">
+		<Unit filename="C:/Users/infwcv674/FSM_Implementation/operation/oppseudoendstate.h">
 			<Option target="FSMDemo"/>
 		</Unit>
-		<Unit filename="/Users/trungdam/CLionProjects/FSM_Implementation/operation/oppseudostartstate.h">
+		<Unit filename="C:/Users/infwcv674/FSM_Implementation/operation/oppseudostartstate.h">
 			<Option target="FSMDemo"/>
 		</Unit>
-		<Unit filename="/Users/trungdam/CLionProjects/FSM_Implementation/operation/opslide.cpp">
+		<Unit filename="C:/Users/infwcv674/FSM_Implementation/operation/opslide.cpp">
 			<Option target="FSMDemo"/>
 		</Unit>
-		<Unit filename="/Users/trungdam/CLionProjects/FSM_Implementation/operation/opslide.h">
+		<Unit filename="C:/Users/infwcv674/FSM_Implementation/operation/opslide.h">
 			<Option target="FSMDemo"/>
 		</Unit>
-		<Unit filename="/Users/trungdam/CLionProjects/FSM_Implementation/operation/opsort.cpp">
+		<Unit filename="C:/Users/infwcv674/FSM_Implementation/operation/opsort.cpp">
 			<Option target="FSMDemo"/>
 		</Unit>
-		<Unit filename="/Users/trungdam/CLionProjects/FSM_Implementation/operation/opsort.h">
+		<Unit filename="C:/Users/infwcv674/FSM_Implementation/operation/opsort.h">
 			<Option target="FSMDemo"/>
 		</Unit>
-		<Unit filename="/Users/trungdam/CLionProjects/FSM_Implementation/operation/opstart.cpp">
+		<Unit filename="C:/Users/infwcv674/FSM_Implementation/operation/opstart.cpp">
 			<Option target="FSMDemo"/>
 		</Unit>
-		<Unit filename="/Users/trungdam/CLionProjects/FSM_Implementation/operation/opstart.h">
+		<Unit filename="C:/Users/infwcv674/FSM_Implementation/operation/opstart.h">
 			<Option target="FSMDemo"/>
 		</Unit>
-		<Unit filename="/Users/trungdam/CLionProjects/FSM_Implementation/rootfsm/basestate.cpp">
+		<Unit filename="C:/Users/infwcv674/FSM_Implementation/rootfsm/basestate.cpp">
 			<Option target="FSMDemo"/>
 		</Unit>
-		<Unit filename="/Users/trungdam/CLionProjects/FSM_Implementation/rootfsm/basestate.h">
+		<Unit filename="C:/Users/infwcv674/FSM_Implementation/rootfsm/basestate.h">
 			<Option target="FSMDemo"/>
 		</Unit>
-		<Unit filename="/Users/trungdam/CLionProjects/FSM_Implementation/rootfsm/initial.cpp">
+		<Unit filename="C:/Users/infwcv674/FSM_Implementation/rootfsm/initial.cpp">
 			<Option target="FSMDemo"/>
 		</Unit>
-		<Unit filename="/Users/trungdam/CLionProjects/FSM_Implementation/rootfsm/initial.h">
+		<Unit filename="C:/Users/infwcv674/FSM_Implementation/rootfsm/initial.h">
 			<Option target="FSMDemo"/>
 		</Unit>
-		<Unit filename="/Users/trungdam/CLionProjects/FSM_Implementation/rootfsm/operation.cpp">
+		<Unit filename="C:/Users/infwcv674/FSM_Implementation/rootfsm/operation.cpp">
 			<Option target="FSMDemo"/>
 		</Unit>
-		<Unit filename="/Users/trungdam/CLionProjects/FSM_Implementation/rootfsm/operation.h">
+		<Unit filename="C:/Users/infwcv674/FSM_Implementation/rootfsm/operation.h">
 			<Option target="FSMDemo"/>
 		</Unit>
-		<Unit filename="/Users/trungdam/CLionProjects/FSM_Implementation/rootfsm/pseudostartstate.cpp">
+		<Unit filename="C:/Users/infwcv674/FSM_Implementation/rootfsm/pseudostartstate.cpp">
 			<Option target="FSMDemo"/>
 		</Unit>
-		<Unit filename="/Users/trungdam/CLionProjects/FSM_Implementation/rootfsm/pseudostartstate.h">
+		<Unit filename="C:/Users/infwcv674/FSM_Implementation/rootfsm/pseudostartstate.h">
 			<Option target="FSMDemo"/>
 		</Unit>
-		<Unit filename="/Users/trungdam/CLionProjects/FSM_Implementation/subcommon/triggerprocessingstate.h">
+		<Unit filename="C:/Users/infwcv674/FSM_Implementation/subcommon/triggerprocessingstate.h">
 			<Option target="FSMDemo"/>
 		</Unit>
-		<Unit filename="/Users/trungdam/CLionProjects/FSM_Implementation/CMakeLists.txt">
+		<Unit filename="C:/Users/infwcv674/FSM_Implementation/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
