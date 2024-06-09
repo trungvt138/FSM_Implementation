@@ -17,10 +17,10 @@ public:
 
     virtual void enteredInitial();
     virtual void enteredOperation();
-    virtual void enteredIdle();
-    virtual void enteredWSStart();
-    virtual void enteredWSIdent();
-    virtual void enteredWSSort();
+    virtual void enteredOPIdle();
+    virtual void enteredOPStart();
+    virtual void enteredOPIdent();
+    virtual void enteredOPSort();
 };
 
 

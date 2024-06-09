@@ -2,21 +2,21 @@
 // Created by trung on 31/05/2024.
 //
 
-#ifndef SUBBASESTATE_H
-#define SUBBASESTATE_H
+#ifndef OPBASESTATE_H
+#define OPBASESTATE_H
 
 #include "../contextdata.h"
 #include "../actions.h"
 #include "../subcommon/triggerprocessingstate.h"
 
-class OperationBaseState {
+class OPBaseState {
 protected:
-    ContextData *data{};
-    Actions *action{};
+    ContextData *data;
+    Actions *action;
 public:
-    virtual ~OperationBaseState() = default;
+    virtual ~OPBaseState() = default;
 
-    virtual void initOperationStateMachines(){};
+    virtual void initOPStateMachines(){};
     void setData(ContextData *data){this->data = data;};
     void setAction(Actions *action){this->action = action;};
 
@@ -43,4 +43,4 @@ public:
 
 
 
-#endif //SUBBASESTATE_H
+#endif //OPBASESTATE_H

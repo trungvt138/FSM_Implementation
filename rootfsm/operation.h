@@ -15,7 +15,6 @@ public:
 
     void entry() override;
 
-    void reset() override;
     void interruptAtStart() override;
     void interruptAtHeightSensor() override;
     void interruptAtSort() override;

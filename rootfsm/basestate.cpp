@@ -5,11 +5,11 @@
 #include "basestate.h"
 
 #include "initial.h"
-#include "../operation/operationpseudostartstate.h"
+#include "../operation/oppseudostartstate.h"
 
 void BaseState::initOperationStateMachines() {
-    operationstatemachine = new OperationPseudoStartState();
-    operationstatemachine->initOperationStateMachines();
+    operationstatemachine = new OPPseudoStartState();
+    operationstatemachine->initOPStateMachines();
 }
 
 void BaseState::setData(ContextData *data){

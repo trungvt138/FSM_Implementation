@@ -4,6 +4,16 @@
 
 #include <iostream>
 
-int main() {
-    std::cout << "Hello World";
+#include "actions.h"
+#include "context.h"
+#include <cstdlib>
+
+int main(int argc, char** argv) {
+    Actions *action = new Actions();
+    Context fsmA(action);
+    fsmA.start();
+    fsmA.showState();
+    fsmA.interruptAtStart();
+    fsmA.showState();
+    fsmA.interruptAtHeightSensor();
 }

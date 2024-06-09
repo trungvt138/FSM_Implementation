@@ -6,14 +6,14 @@
 #define BASESTATE_H
 #include "../actions.h"
 #include "../contextdata.h"
-#include "../operation/operationbasestate.h"
+#include "../operation/opbasestate.h"
 
 
 class BaseState {
 protected:
     ContextData *data;
     Actions *action;
-    OperationBaseState *operationstatemachine;
+    OPBaseState *operationstatemachine;
 public:
     virtual ~BaseState() {
         delete operationstatemachine;
@@ -45,7 +45,7 @@ public:
     virtual void interruptAtSlide() {};
     virtual void interruptAtEnd() {};
 
-    virtual void showState();
+    virtual void showState() {};
 };
 
 

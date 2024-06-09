@@ -4,33 +4,33 @@ project(FSMDemo)
 set(CMAKE_CXX_STANDARD 17)
 
 add_executable(FSMDemo main.cpp
-        main.cpp
-        main.cpp
         context.cpp
         context.h
-        rootfsm/basestate.cpp
-        rootfsm/basestate.h
         contextdata.cpp
         contextdata.h
         actions.cpp
         actions.h
-        operation/operationbasestate.cpp
-        operation/operationbasestate.h
         subcommon/triggerprocessingstate.h
-        operation/operationidle.cpp
-        operation/operationidle.h
+        operation/opbasestate.cpp
+        operation/opbasestate.h
+        operation/opidle.cpp
+        operation/opidle.h
         rootfsm/pseudostartstate.cpp
         rootfsm/pseudostartstate.h
         rootfsm/initial.cpp
         rootfsm/initial.h
-        operation/operationpseudostartstate.h
-        rootfsm/Operation.cpp
-        rootfsm/Operation.h
-        operation/wsatstartstate.cpp
-        operation/wsatstartstate.h
-        operation/wsident.cpp
-        operation/wsident.h
-        operation/wssort.cpp
-        operation/wssort.h
-        operation/operationpseudoendstate.h
+        rootfsm/basestate.cpp
+        rootfsm/basestate.h
+        rootfsm/operation.cpp
+        rootfsm/operation.h
+        operation/oppseudostartstate.h
+        operation/opstart.cpp
+        operation/opstart.h
+        operation/opident.cpp
+        operation/opident.h
+        operation/opsort.cpp
+        operation/opsort.h
+        operation/oppseudoendstate.h
+        operation/opslide.cpp
+        operation/opslide.h
 )

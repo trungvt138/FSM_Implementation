@@ -97,31 +97,46 @@
 		<Unit filename="/Users/trungdam/CLionProjects/FSM_Implementation/main.cpp">
 			<Option target="FSMDemo"/>
 		</Unit>
-		<Unit filename="/Users/trungdam/CLionProjects/FSM_Implementation/operation/operationbasestate.cpp">
+		<Unit filename="/Users/trungdam/CLionProjects/FSM_Implementation/operation/opbasestate.cpp">
 			<Option target="FSMDemo"/>
 		</Unit>
-		<Unit filename="/Users/trungdam/CLionProjects/FSM_Implementation/operation/operationbasestate.h">
+		<Unit filename="/Users/trungdam/CLionProjects/FSM_Implementation/operation/opbasestate.h">
 			<Option target="FSMDemo"/>
 		</Unit>
-		<Unit filename="/Users/trungdam/CLionProjects/FSM_Implementation/operation/operationidle.cpp">
+		<Unit filename="/Users/trungdam/CLionProjects/FSM_Implementation/operation/opident.cpp">
 			<Option target="FSMDemo"/>
 		</Unit>
-		<Unit filename="/Users/trungdam/CLionProjects/FSM_Implementation/operation/operationidle.h">
+		<Unit filename="/Users/trungdam/CLionProjects/FSM_Implementation/operation/opident.h">
 			<Option target="FSMDemo"/>
 		</Unit>
-		<Unit filename="/Users/trungdam/CLionProjects/FSM_Implementation/operation/operationpseudostartstate.h">
+		<Unit filename="/Users/trungdam/CLionProjects/FSM_Implementation/operation/opidle.cpp">
 			<Option target="FSMDemo"/>
 		</Unit>
-		<Unit filename="/Users/trungdam/CLionProjects/FSM_Implementation/operation/wsatstartstate.cpp">
+		<Unit filename="/Users/trungdam/CLionProjects/FSM_Implementation/operation/opidle.h">
 			<Option target="FSMDemo"/>
 		</Unit>
-		<Unit filename="/Users/trungdam/CLionProjects/FSM_Implementation/operation/wsatstartstate.h">
+		<Unit filename="/Users/trungdam/CLionProjects/FSM_Implementation/operation/oppseudoendstate.h">
 			<Option target="FSMDemo"/>
 		</Unit>
-		<Unit filename="/Users/trungdam/CLionProjects/FSM_Implementation/rootfsm/Operation.cpp">
+		<Unit filename="/Users/trungdam/CLionProjects/FSM_Implementation/operation/oppseudostartstate.h">
 			<Option target="FSMDemo"/>
 		</Unit>
-		<Unit filename="/Users/trungdam/CLionProjects/FSM_Implementation/rootfsm/Operation.h">
+		<Unit filename="/Users/trungdam/CLionProjects/FSM_Implementation/operation/opslide.cpp">
+			<Option target="FSMDemo"/>
+		</Unit>
+		<Unit filename="/Users/trungdam/CLionProjects/FSM_Implementation/operation/opslide.h">
+			<Option target="FSMDemo"/>
+		</Unit>
+		<Unit filename="/Users/trungdam/CLionProjects/FSM_Implementation/operation/opsort.cpp">
+			<Option target="FSMDemo"/>
+		</Unit>
+		<Unit filename="/Users/trungdam/CLionProjects/FSM_Implementation/operation/opsort.h">
+			<Option target="FSMDemo"/>
+		</Unit>
+		<Unit filename="/Users/trungdam/CLionProjects/FSM_Implementation/operation/opstart.cpp">
+			<Option target="FSMDemo"/>
+		</Unit>
+		<Unit filename="/Users/trungdam/CLionProjects/FSM_Implementation/operation/opstart.h">
 			<Option target="FSMDemo"/>
 		</Unit>
 		<Unit filename="/Users/trungdam/CLionProjects/FSM_Implementation/rootfsm/basestate.cpp">
@@ -134,6 +149,12 @@
 			<Option target="FSMDemo"/>
 		</Unit>
 		<Unit filename="/Users/trungdam/CLionProjects/FSM_Implementation/rootfsm/initial.h">
+			<Option target="FSMDemo"/>
+		</Unit>
+		<Unit filename="/Users/trungdam/CLionProjects/FSM_Implementation/rootfsm/operation.cpp">
+			<Option target="FSMDemo"/>
+		</Unit>
+		<Unit filename="/Users/trungdam/CLionProjects/FSM_Implementation/rootfsm/operation.h">
 			<Option target="FSMDemo"/>
 		</Unit>
 		<Unit filename="/Users/trungdam/CLionProjects/FSM_Implementation/rootfsm/pseudostartstate.cpp">

@@ -27,9 +27,9 @@ void Actions::unlock() {
     cout << "  Actions unlock called" << endl;
 }
 
-void Actions::enteredIdle() {}
+void Actions::enteredOPIdle() {}
 void Actions::enteredInitial() {}
 void Actions::enteredOperation() {}
-void Actions::enteredWSIdent() {}
-void Actions::enteredWSSort() {}
-void Actions::enteredWSStart() {}
+void Actions::enteredOPIdent() {}
+void Actions::enteredOPSort() {}
+void Actions::enteredOPStart() {}

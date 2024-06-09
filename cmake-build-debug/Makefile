@@ -225,101 +225,149 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/FSMDemo.dir/build.make CMakeFiles/FSMDemo.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-operation/operationbasestate.o: operation/operationbasestate.cpp.o
-.PHONY : operation/operationbasestate.o
+operation/opbasestate.o: operation/opbasestate.cpp.o
+.PHONY : operation/opbasestate.o
 
 # target to build an object file
-operation/operationbasestate.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FSMDemo.dir/build.make CMakeFiles/FSMDemo.dir/operation/operationbasestate.cpp.o
-.PHONY : operation/operationbasestate.cpp.o
+operation/opbasestate.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FSMDemo.dir/build.make CMakeFiles/FSMDemo.dir/operation/opbasestate.cpp.o
+.PHONY : operation/opbasestate.cpp.o
 
-operation/operationbasestate.i: operation/operationbasestate.cpp.i
-.PHONY : operation/operationbasestate.i
+operation/opbasestate.i: operation/opbasestate.cpp.i
+.PHONY : operation/opbasestate.i
 
 # target to preprocess a source file
-operation/operationbasestate.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FSMDemo.dir/build.make CMakeFiles/FSMDemo.dir/operation/operationbasestate.cpp.i
-.PHONY : operation/operationbasestate.cpp.i
+operation/opbasestate.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FSMDemo.dir/build.make CMakeFiles/FSMDemo.dir/operation/opbasestate.cpp.i
+.PHONY : operation/opbasestate.cpp.i
 
-operation/operationbasestate.s: operation/operationbasestate.cpp.s
-.PHONY : operation/operationbasestate.s
+operation/opbasestate.s: operation/opbasestate.cpp.s
+.PHONY : operation/opbasestate.s
 
 # target to generate assembly for a file
-operation/operationbasestate.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FSMDemo.dir/build.make CMakeFiles/FSMDemo.dir/operation/operationbasestate.cpp.s
-.PHONY : operation/operationbasestate.cpp.s
+operation/opbasestate.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FSMDemo.dir/build.make CMakeFiles/FSMDemo.dir/operation/opbasestate.cpp.s
+.PHONY : operation/opbasestate.cpp.s
 
-operation/operationidle.o: operation/operationidle.cpp.o
-.PHONY : operation/operationidle.o
+operation/opident.o: operation/opident.cpp.o
+.PHONY : operation/opident.o
 
 # target to build an object file
-operation/operationidle.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FSMDemo.dir/build.make CMakeFiles/FSMDemo.dir/operation/operationidle.cpp.o
-.PHONY : operation/operationidle.cpp.o
+operation/opident.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FSMDemo.dir/build.make CMakeFiles/FSMDemo.dir/operation/opident.cpp.o
+.PHONY : operation/opident.cpp.o
 
-operation/operationidle.i: operation/operationidle.cpp.i
-.PHONY : operation/operationidle.i
+operation/opident.i: operation/opident.cpp.i
+.PHONY : operation/opident.i
 
 # target to preprocess a source file
-operation/operationidle.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FSMDemo.dir/build.make CMakeFiles/FSMDemo.dir/operation/operationidle.cpp.i
-.PHONY : operation/operationidle.cpp.i
+operation/opident.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FSMDemo.dir/build.make CMakeFiles/FSMDemo.dir/operation/opident.cpp.i
+.PHONY : operation/opident.cpp.i
 
-operation/operationidle.s: operation/operationidle.cpp.s
-.PHONY : operation/operationidle.s
+operation/opident.s: operation/opident.cpp.s
+.PHONY : operation/opident.s
 
 # target to generate assembly for a file
-operation/operationidle.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FSMDemo.dir/build.make CMakeFiles/FSMDemo.dir/operation/operationidle.cpp.s
-.PHONY : operation/operationidle.cpp.s
+operation/opident.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FSMDemo.dir/build.make CMakeFiles/FSMDemo.dir/operation/opident.cpp.s
+.PHONY : operation/opident.cpp.s
 
-operation/wsatstartstate.o: operation/wsatstartstate.cpp.o
-.PHONY : operation/wsatstartstate.o
+operation/opidle.o: operation/opidle.cpp.o
+.PHONY : operation/opidle.o
 
 # target to build an object file
-operation/wsatstartstate.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FSMDemo.dir/build.make CMakeFiles/FSMDemo.dir/operation/wsatstartstate.cpp.o
-.PHONY : operation/wsatstartstate.cpp.o
+operation/opidle.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FSMDemo.dir/build.make CMakeFiles/FSMDemo.dir/operation/opidle.cpp.o
+.PHONY : operation/opidle.cpp.o
 
-operation/wsatstartstate.i: operation/wsatstartstate.cpp.i
-.PHONY : operation/wsatstartstate.i
+operation/opidle.i: operation/opidle.cpp.i
+.PHONY : operation/opidle.i
 
 # target to preprocess a source file
-operation/wsatstartstate.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FSMDemo.dir/build.make CMakeFiles/FSMDemo.dir/operation/wsatstartstate.cpp.i
-.PHONY : operation/wsatstartstate.cpp.i
+operation/opidle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FSMDemo.dir/build.make CMakeFiles/FSMDemo.dir/operation/opidle.cpp.i
+.PHONY : operation/opidle.cpp.i
 
-operation/wsatstartstate.s: operation/wsatstartstate.cpp.s
-.PHONY : operation/wsatstartstate.s
+operation/opidle.s: operation/opidle.cpp.s
+.PHONY : operation/opidle.s
 
 # target to generate assembly for a file
-operation/wsatstartstate.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FSMDemo.dir/build.make CMakeFiles/FSMDemo.dir/operation/wsatstartstate.cpp.s
-.PHONY : operation/wsatstartstate.cpp.s
+operation/opidle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FSMDemo.dir/build.make CMakeFiles/FSMDemo.dir/operation/opidle.cpp.s
+.PHONY : operation/opidle.cpp.s
 
-rootfsm/Operation.o: rootfsm/Operation.cpp.o
-.PHONY : rootfsm/Operation.o
+operation/opslide.o: operation/opslide.cpp.o
+.PHONY : operation/opslide.o
 
 # target to build an object file
-rootfsm/Operation.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FSMDemo.dir/build.make CMakeFiles/FSMDemo.dir/rootfsm/Operation.cpp.o
-.PHONY : rootfsm/Operation.cpp.o
+operation/opslide.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FSMDemo.dir/build.make CMakeFiles/FSMDemo.dir/operation/opslide.cpp.o
+.PHONY : operation/opslide.cpp.o
 
-rootfsm/Operation.i: rootfsm/Operation.cpp.i
-.PHONY : rootfsm/Operation.i
+operation/opslide.i: operation/opslide.cpp.i
+.PHONY : operation/opslide.i
 
 # target to preprocess a source file
-rootfsm/Operation.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FSMDemo.dir/build.make CMakeFiles/FSMDemo.dir/rootfsm/Operation.cpp.i
-.PHONY : rootfsm/Operation.cpp.i
+operation/opslide.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FSMDemo.dir/build.make CMakeFiles/FSMDemo.dir/operation/opslide.cpp.i
+.PHONY : operation/opslide.cpp.i
 
-rootfsm/Operation.s: rootfsm/Operation.cpp.s
-.PHONY : rootfsm/Operation.s
+operation/opslide.s: operation/opslide.cpp.s
+.PHONY : operation/opslide.s
 
 # target to generate assembly for a file
-rootfsm/Operation.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FSMDemo.dir/build.make CMakeFiles/FSMDemo.dir/rootfsm/Operation.cpp.s
-.PHONY : rootfsm/Operation.cpp.s
+operation/opslide.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FSMDemo.dir/build.make CMakeFiles/FSMDemo.dir/operation/opslide.cpp.s
+.PHONY : operation/opslide.cpp.s
+
+operation/opsort.o: operation/opsort.cpp.o
+.PHONY : operation/opsort.o
+
+# target to build an object file
+operation/opsort.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FSMDemo.dir/build.make CMakeFiles/FSMDemo.dir/operation/opsort.cpp.o
+.PHONY : operation/opsort.cpp.o
+
+operation/opsort.i: operation/opsort.cpp.i
+.PHONY : operation/opsort.i
+
+# target to preprocess a source file
+operation/opsort.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FSMDemo.dir/build.make CMakeFiles/FSMDemo.dir/operation/opsort.cpp.i
+.PHONY : operation/opsort.cpp.i
+
+operation/opsort.s: operation/opsort.cpp.s
+.PHONY : operation/opsort.s
+
+# target to generate assembly for a file
+operation/opsort.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FSMDemo.dir/build.make CMakeFiles/FSMDemo.dir/operation/opsort.cpp.s
+.PHONY : operation/opsort.cpp.s
+
+operation/opstart.o: operation/opstart.cpp.o
+.PHONY : operation/opstart.o
+
+# target to build an object file
+operation/opstart.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FSMDemo.dir/build.make CMakeFiles/FSMDemo.dir/operation/opstart.cpp.o
+.PHONY : operation/opstart.cpp.o
+
+operation/opstart.i: operation/opstart.cpp.i
+.PHONY : operation/opstart.i
+
+# target to preprocess a source file
+operation/opstart.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FSMDemo.dir/build.make CMakeFiles/FSMDemo.dir/operation/opstart.cpp.i
+.PHONY : operation/opstart.cpp.i
+
+operation/opstart.s: operation/opstart.cpp.s
+.PHONY : operation/opstart.s
+
+# target to generate assembly for a file
+operation/opstart.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FSMDemo.dir/build.make CMakeFiles/FSMDemo.dir/operation/opstart.cpp.s
+.PHONY : operation/opstart.cpp.s
 
 rootfsm/basestate.o: rootfsm/basestate.cpp.o
 .PHONY : rootfsm/basestate.o
@@ -369,6 +417,30 @@ rootfsm/initial.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/FSMDemo.dir/build.make CMakeFiles/FSMDemo.dir/rootfsm/initial.cpp.s
 .PHONY : rootfsm/initial.cpp.s
 
+rootfsm/operation.o: rootfsm/operation.cpp.o
+.PHONY : rootfsm/operation.o
+
+# target to build an object file
+rootfsm/operation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FSMDemo.dir/build.make CMakeFiles/FSMDemo.dir/rootfsm/operation.cpp.o
+.PHONY : rootfsm/operation.cpp.o
+
+rootfsm/operation.i: rootfsm/operation.cpp.i
+.PHONY : rootfsm/operation.i
+
+# target to preprocess a source file
+rootfsm/operation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FSMDemo.dir/build.make CMakeFiles/FSMDemo.dir/rootfsm/operation.cpp.i
+.PHONY : rootfsm/operation.cpp.i
+
+rootfsm/operation.s: rootfsm/operation.cpp.s
+.PHONY : rootfsm/operation.s
+
+# target to generate assembly for a file
+rootfsm/operation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FSMDemo.dir/build.make CMakeFiles/FSMDemo.dir/rootfsm/operation.cpp.s
+.PHONY : rootfsm/operation.cpp.s
+
 rootfsm/pseudostartstate.o: rootfsm/pseudostartstate.cpp.o
 .PHONY : rootfsm/pseudostartstate.o
 
@@ -414,24 +486,33 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... operation/operationbasestate.o"
-	@echo "... operation/operationbasestate.i"
-	@echo "... operation/operationbasestate.s"
-	@echo "... operation/operationidle.o"
-	@echo "... operation/operationidle.i"
-	@echo "... operation/operationidle.s"
-	@echo "... operation/wsatstartstate.o"
-	@echo "... operation/wsatstartstate.i"
-	@echo "... operation/wsatstartstate.s"
-	@echo "... rootfsm/Operation.o"
-	@echo "... rootfsm/Operation.i"
-	@echo "... rootfsm/Operation.s"
+	@echo "... operation/opbasestate.o"
+	@echo "... operation/opbasestate.i"
+	@echo "... operation/opbasestate.s"
+	@echo "... operation/opident.o"
+	@echo "... operation/opident.i"
+	@echo "... operation/opident.s"
+	@echo "... operation/opidle.o"
+	@echo "... operation/opidle.i"
+	@echo "... operation/opidle.s"
+	@echo "... operation/opslide.o"
+	@echo "... operation/opslide.i"
+	@echo "... operation/opslide.s"
+	@echo "... operation/opsort.o"
+	@echo "... operation/opsort.i"
+	@echo "... operation/opsort.s"
+	@echo "... operation/opstart.o"
+	@echo "... operation/opstart.i"
+	@echo "... operation/opstart.s"
 	@echo "... rootfsm/basestate.o"
 	@echo "... rootfsm/basestate.i"
 	@echo "... rootfsm/basestate.s"
 	@echo "... rootfsm/initial.o"
 	@echo "... rootfsm/initial.i"
 	@echo "... rootfsm/initial.s"
+	@echo "... rootfsm/operation.o"
+	@echo "... rootfsm/operation.i"
+	@echo "... rootfsm/operation.s"
 	@echo "... rootfsm/pseudostartstate.o"
 	@echo "... rootfsm/pseudostartstate.i"
 	@echo "... rootfsm/pseudostartstate.s"
