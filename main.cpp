@@ -16,4 +16,9 @@ int main(int argc, char** argv) {
     fsmA.interruptAtStart();
     fsmA.showState();
     fsmA.interruptAtHeightSensor();
+    fsmA.interruptAtSort();
+    fsmA.interruptAtSlide();
+    fsmA.showState();
+    fsmA.reset();
+    fsmA.showState();
 }

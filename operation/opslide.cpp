@@ -20,5 +20,5 @@ TriggerProcessingState OPSlide::reset() {
 }
 
 void OPSlide::showState() {
-    std::cout << "  OP State: Sort" << std::endl;
+    std::cout << "  OP State: Slide" << std::endl;
 }

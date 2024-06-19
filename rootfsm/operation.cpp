@@ -46,9 +46,16 @@ void Operation::interruptAtSort() {
     operationstatemachine->interruptAtSort();
 }
 
+void Operation::reset() {
+    std::cout << "Operation: reset called" << std::endl;
+    operationstatemachine->reset();
+}
+
 void Operation::interruptAtEnd() {
     std::cout << "Operation: interruptAtEnd called" << std::endl;
-    operationstatemachine->interruptAtEnd();
+
+    TriggerProcessingState processingState = operationstatemachine->interruptAtEnd();
+    handleDefaultExit(processingState);
 }
 
 void Operation::handleDefaultExit(const TriggerProcessingState &processingState) {
